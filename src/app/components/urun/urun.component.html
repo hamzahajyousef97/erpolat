@@ -1,0 +1,309 @@
+<section style="margin-top: 15%">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 center text-center">
+                <h2 class="h1-responsive font-weight-bold my-5" style="color: #DCE3E7">Eviniz İçin</h2>
+                <p style="font-size: 20px;color: #f7f7f7">
+                    İç Mekana uygun kokusu,dokusu,ve görüntüsüyle sizi mutlu edecek mobilyalar..
+                </p>
+                <hr class="hr-size" style="border-top: 1px solid rgba(255, 255, 255, 0.267);">
+            </div>
+        </div>
+        <div class="card card-body center padding-card">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                        <div class="col-md-12 col-sm-12">
+                            <img src="./assets/person.jpeg" class="image img-thumbnail center"> 
+                        </div>
+                        <div class="col-12" style="margin-top: 5%">
+                            <div class="row">
+                                <div class="col-3">
+                                    <a href=""><img src="./assets/person.jpeg" class="urun-img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><img src="./assets/person.jpeg" class="urun-img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><img src="./assets/person.jpeg" class="urun-img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><img src="./assets/person.jpeg" class="urun-img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12" style="margin-top: 4%">
+                        <hr class="hr-size hr-sm">
+                        <div class="row">
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">isim:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">askbjhaskdjbnasd</p>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">Ağırlık:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">1.7Kg</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">Model:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">askbjhaskdjbnasd</p>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">Renk:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">Kırmızı</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">kalite:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">askbjhaskdjbnasd</p>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">Model:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">07.06.2018</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">fiyat:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">askbjhaskdjbnasd</p>
+                            </div>
+                            <div class="col-md-2 col-4">
+                                <p class="isim-p">fiyat:</p>
+                            </div>
+                            <div class="col-md-4 col-8">
+                                <p class="urun-p">askbjhaskdjbnasd</p>
+                            </div>
+                        </div>
+                        <button type="button" mdbBtn class="btn btn-ahsap center waves-light" style="margin-top: 5%" (click)="basicModal.show()" mdbWavesEffect>
+                            HEMAN AL <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel"
+                    aria-hidden="true" style="overflow: auto;">
+                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class=" modal-title">FORM</h5>
+                                <button type="button" class="close" (click)="basicModal.hide()" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-8 col-lg-8 col-md-12">
+                                            <div class="md-form">
+                                                <i class="fa fa-user prefix grey-text"></i>
+                                                <input mdbInputDirective type="text" class="form-control">
+                                                <label for="materialFormRegisterNameEx">ADI  SOYADI</label>
+                                            </div>
+                                            <br>
+                                            <div class="md-form">
+                                                <i class="fas fa-mobile prefix grey-text"></i>
+                                                <input mdbInputDirective type="tel" class="form-control">
+                                                <label for="materialFormRegisterEmailEx">Cep Telefon</label>
+                                            </div>
+                                            <br>
+                                            <div class="md-form">
+                                                <i class="fas fa-map-marked-alt prefix grey-text"></i>
+                                                <input mdbInputDirective type="text" class="form-control">
+                                                <label for="materialFormRegisterNameEx">Address</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-12">
+                                            <div class="col-xl-12 col-lg-12 col-md-6 col-10 center" style="margin-top: 20%">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-append">
+                                                        <span value="-" id="moins" onclick="minus()" class="badge badge-danger"><i class="fa fa-minus"></i></span>
+                                                    </div>
+                                                    <input class="form-control" disabled="disabled" value="1" id="count" style="width: 1rem; height: 21px; padding: 0.375rem 4.4rem;">
+                                                    <div class="input-group-prepend">
+                                                        <span value="+" id="plus" onclick="plus()"  class="badge badge-success"><i class="fa fa-plus"></i></span>
+                                                    </div>
+                                                </div>                                      
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div style="margin-top: 17%">
+                                                    <label class="label-margin">Tahta Renkleri</label>
+                                                    <select class="custom-select" style="width: 100%;">
+                                                        <option value="volvo">Orjinal rengi şeffaf vernik</option>
+                                                        <option value="saab">Orjinal rengi doğal yağ</option>
+                                                        <option value="opel">Koyu kahverengi eskitme</option>
+                                                        <option value="audi">Açık kahverengi eskitme</option>
+                                                    </select>
+                                                </div>
+                                                <br>
+                                                <div style="margin-top: 12%">
+                                                    <label class="label-margin">Metal Renkleri</label>
+                                                    <select class="custom-select" style="width: 100%;">
+                                                        <option value="volvo">Siyah</option>
+                                                        <option value="saab">Beyaz</option>
+                                                        <option value="opel">Gri</option>
+                                                        <option value="audi">Metalik</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <br>
+                                <div class="modal-footer" style="border-top: 0px !important">
+                                    <button type="button" mdbBtn color="danger" class="waves-light" aria-label="Close" (click)="basicModal.hide()" mdbWavesEffect>IPTAL</button>
+                                    <button type="button" mdbBtn color="primary" class="relative waves-light" mdbWavesEffect>GÖNDER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="col-md-10 center">
+                <p class="h1 h1-responsive text-center mt-4 mb-4">Açıklamaları :</p>
+                <ol>
+                    <li>
+                            Generator Categories. Most Popular Animated Black Chrome Distressed Elegant Embossed Fire Fun Girly Glossy Glowing ...
+                    </li>
+                    <li>
+                            Gener Fire Fun Girly Glossy Glowing ...
+                    </li>
+                    <li>
+                            Generator Categories. Most Elegant Embossed Fire Fun Girly Glossy Glowing ...
+                    </li>
+                    <li>
+                            Gener Fire Fun Girly Glossy Glowing ...
+                    </li>
+                    <li>
+                            Generator Categories. Most Elegant Embossed Fire Fun Girly Glossy Glowing ...
+                    </li>
+                </ol>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="container-fluid">
+            <h2 class="h1-responsive font-weight-bold text-center my-5" style="color: #DCE3E7">Bu ürünle ilgilenen kullanıcılar bunlarla da ilgilendi</h2>
+            <hr class="hr-size" style="border-top: 1px solid rgba(255, 255, 255, 0.267);">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto">
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6 active">
+                        <div class="card">
+                            <img class="card-img-top center" src="./assets/1.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 1</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/2.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 2</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/3.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 3</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/4.jpg" style="width: 100%; height: 350px;" alt="Card image cap">  
+                            <div class="card-body">
+                                <h4 class="card-title">Card 4</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/5.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 5</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/1.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 6</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-xl-4 col-lg-6 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top center" src="img/2.jpg" style="width: 100%; height: 350px;" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card 7</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <hr class="hr-size">
+                                <div class="col-md-6 center">
+                                    <a href="" class="btn btn-ahsap btn-block">daha bilgi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="fa fa-arrow-left fa-lg fa-color" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="fa fa-arrow-right fa-lg fa-color" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+

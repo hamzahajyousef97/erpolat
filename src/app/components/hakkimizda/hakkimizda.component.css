@@ -1,0 +1,12 @@
+@media(min-width:451px){
+    .hakkimizda{
+        padding-bottom: 5%;
+        margin-top: 15%;
+    }
+}
+@media(max-width:450px){
+    .hakkimizda{
+        padding-bottom: 5%;
+        margin-top: 30%;
+    }
+}

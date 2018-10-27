@@ -1,0 +1,45 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg fixed-top navbar-light blue-grey lighten-5">
+    <mdb-navbar-brand><a class="navbar-brand" href="/anasayfa" style="margin-left: 2%; margin-right: 3rem !important;"><img src="./assets/logo.png" class="navbar-img"></a></mdb-navbar-brand>
+
+    <links>
+        <ul class="navbar-nav mr-auto nav-ul">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/anasayfa">Ana Sayfa<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown" dropdown routerLinkActive="active">
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                    Ev İçi<span class="caret"></span>
+                </a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/masa">MASA</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/sandalye">SANDALIYE</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/kitaplik">KİTAPLIK</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/tvunitesi">TV ÜNİTESİ </a>
+                </div>
+            </li>
+            <li class="nav-item dropdown" dropdown routerLinkActive="active">
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                        Ev dişi<span class="caret"></span>
+                </a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/salincaklar">SALINCAKLAR</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/banklar">BANKLAR</a>
+                    <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/saksiliklar">SAKSILIKLAR </a>
+                </div>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" routerLink="/tasarim_yolla">Tasarım Yolayin</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" routerLink="/hakkimizda">Hakkımızda</a>
+            </li>
+            <!-- <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" routerLink="#">Ürünlerimiz Hakkında</a>
+            </li> -->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light" routerLink="/bize_ulasin">Bize Ulaşın</a>
+            </li>
+        </ul>
+    </links>
+
+</mdb-navbar>

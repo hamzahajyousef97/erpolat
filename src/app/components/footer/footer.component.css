@@ -1,0 +1,21 @@
+footer ul li {
+    margin-bottom: 8px;
+}
+footer h5 {
+    color: #dce3e7 !important;
+}
+footer address {
+    color: #dce3e7 !important;
+}
+footer p {
+    color: #dce3e7 !important;
+}
+footer a {
+    color: #fff !important;
+}
+.footer-copyright{
+    color: #dce3e7 !important;
+}
+.blue {
+    background-color: #3b9158 !important;
+}

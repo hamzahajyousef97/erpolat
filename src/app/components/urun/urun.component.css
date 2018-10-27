@@ -1,0 +1,17 @@
+.label-margin{
+    margin-right: 5px;
+}
+@media(max-width:450px){
+    .padding-card{
+        padding: 1.25rem 0.25rem 1.25rem 0.25rem
+    }
+    .hr-sm{
+        display: block;
+        margin: 10% auto 10% auto !important;
+    }
+}
+@media(min-width:451px){
+    .hr-sm{
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+@media(min-width:451px){
+    .contact{
+        margin-top: 12%;
+    }
+}
+@media(max-width:450px){
+    .contact{
+        margin-top: 30%;
+    }
+}

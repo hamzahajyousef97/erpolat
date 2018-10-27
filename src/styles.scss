@@ -1,0 +1,238 @@
+body{
+    width: 100%;
+    background-color: #323c41;
+}
+.facebook{
+    color: #fff;
+    transition: 0.3s ease;
+}
+.instagram{
+    color: #fff;
+    transition: 0.3s ease;
+}
+.twitter{
+    color: #fff;
+    transition: 0.3s ease;
+}
+.facebook:hover{
+    color: #3b5998;
+    transition: 0.3s ease;
+}
+.instagram:hover{
+    color: #dc2f7f;
+    transition: 0.3s ease;
+}
+.twitter:hover{
+    color: #55acee;
+    transition: 0.3s ease;
+}
+.center{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block;
+}
+.img-thumbnail {
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+.image {
+    width: 320px;
+    height: 320px;
+}
+.urun-img{
+    width: 90%;
+    height: 60px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 3.5%;
+    display: block;
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+.urun-img:hover{
+    opacity: 1;
+    transition: 0.2s ease;
+}
+.urun-border{
+    border: 1px solid #dee2e6;
+    height: 68px;
+    width: 100%;
+}
+.isim-p{
+    font-size: 120%;
+}
+.urun-p{
+    font-size: 100%;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+}
+.hr-size{
+    margin: 5% auto 5% auto !important;
+    width: 80%;
+}
+.hr-white{
+    margin: 5% auto 5% auto !important;
+    width: 80%;
+    border-top: 1px solid rgba(255, 255, 255, 0.404);
+}
+.card{
+    border-radius: 1rem;
+    margin-bottom: 10%;
+}
+.headeing{
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+.btn-ahsap{
+    background-color:#3b9158 !important;
+    color: #DCE3E7 !important;
+    font-family: 'Droid Serif', serif;
+    font-size: 100%;
+}
+.tasirm{
+    filter: brightness(60%);
+    z-index: -55555555;
+    position: absolute;
+}
+.card-img{
+    width: 65% !important;
+    height: 200px;
+    align-self: center;
+}
+
+/******************************************************* hudai classlari :) ******/
+.card-erpulat{
+    overflow: hidden;
+    border-radius: 20px !important;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: auto;
+}
+.card-erpulat .spring-fever {
+    padding: 1.25rem;
+    height: 100%;
+    width: 100%;
+}
+@media(max-width: 500px){
+    .card-erpulat{
+        height: 350px;
+    }
+    .card-erpulat img{
+        width: 100%;
+        position: absolute;
+        height: 350px;
+    }
+}
+@media(min-width: 501px){
+    .card-erpulat{
+        height: 500px;
+    }
+    .card-erpulat img{
+        width: 100%;
+        position: absolute;
+        height: 500px;
+    }
+}
+.hr-pulat{
+    width: 50px;
+    height: 3px;
+    margin: 10px auto 10px auto !important;
+    border: 0;
+    background: #3b9158 ;
+}
+.title-content {
+    text-align: center;
+    z-index: 20;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 130%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(39, 58, 70);
+    font-family: 'Roboto', sans-serif !important;
+}
+.intro{
+    color: #000000;
+    font-family: 'Droid Serif', serif;
+    font-size: 100%;
+    font-style: italic;
+    line-height: 18px;
+    margin-top: 3%;
+}
+.card-info {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    color: #DCE3E7;
+    font-family: 'Droid Serif', serif;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+    margin-left: 22%;
+}
+.card-erpulat:hover .card-info {
+    opacity: 1;
+    bottom: 130px;
+}
+@media(max-width : 500px){
+    .card-info {
+        margin-left: 13%;
+    }
+    .card-erpulat:hover .card-info {
+        bottom: 60px;
+    }
+}
+.card-erpulat .color-overlay {
+    background-color: rgba(84, 104, 110, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: background-image 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+    transition: 0.5s ease;
+}
+.card-erpulat:hover .color-overlay {
+    background: rgba(84, 104, 110, 0.8);
+    transition: 0.5s ease;
+}
+.card-erpulat .gradient-overlay {
+    background-image: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    background-image: -moz-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    background-image: -o-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+.badge-success {
+    background-color: #00c851 !important;
+    color: #fff !important;
+    height: 20px;
+    width: 20px;
+}
+.badge-danger {
+    background-color: #ff3547 !important;
+    color: #fff !important;
+    height: 20px;
+    width: 20px;
+}
+input[type=text]:disabled {
+    background: #dddddd;
+}
+
+@media(max-width: 991px){
+    .btn-ahsap{
+        padding: 0.5rem 1.6rem;
+        font-size: 0.64rem !important;
+        line-height: 1.5;
+    }
+}

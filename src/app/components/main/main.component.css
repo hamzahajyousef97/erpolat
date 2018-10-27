@@ -1,0 +1,38 @@
+.jumbotron{
+    background-image: url("/assets/6.jpg");
+    height: 600px;
+}
+@media(min-width: 1026px){
+    .margin-t{
+        margin-top: 10%;
+    }
+    .jumbotron{
+        height: 600px;
+    }
+}
+@media(max-width: 1025px){
+    .margin-t{
+        margin-top: 18%;
+    }
+    .jumbotron{
+        height: 550px;
+    }
+}
+@media(max-width: 800px){
+    .jumbotron{
+        height: 500px;
+    }
+}
+@media(min-width: 501px){
+    .margin-tasarim{
+        margin-top: 22%;
+    }
+}
+@media(max-width: 500px){
+    .margin-t{
+        margin-top: 30%;
+    }
+    .margin-tasarim{
+        margin-top: 4%;
+    }
+}
